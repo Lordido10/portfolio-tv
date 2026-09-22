@@ -119,7 +119,7 @@ const projects = [
     description:"Portfolio TV is this portfolio experience. It combines responsive frontend development, custom CSS illustration, accessible interactions, CRT-inspired channel transitions, and an original visual language influenced by retro broadcast interfaces.",
     highlights:["Responsive editorial layout","Custom CRT and tuning interactions","Original project-channel system"],
     tech:["HTML","CSS","JavaScript","Responsive Design","Interaction Design"],
-    github:null, status:"CURRENT PORTFOLIO"
+    github:"https://github.com/Lordido10/portfolio-tv", status:"CURRENT PORTFOLIO"
   },
   {
     channel:"04.4", number:"04", title:"SPENDLY", category:"UNDER DEVELOPMENT", kind:"upcoming", image:null,
