@@ -2,7 +2,7 @@
 
 Hi! I'm **Oslando Fristian**, a Computer Science student at BINUS University.
 
-This is my personal portfolio — a place where I share some of the projects I've built, experiences I've had, and things I'm currently learning.
+This is my personal portfolio a place where I share some of the projects I've built, experiences I've had, and things I'm currently learning.
 
 The website uses a retro TV / broadcast concept, with visual inspiration from **Persona 4's bold and playful interface style**.
 
