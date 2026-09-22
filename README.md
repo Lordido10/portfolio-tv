@@ -30,7 +30,3 @@ Feel free to reach out or check out what I'm working on.
 - [GitHub](https://github.com/Lordido10)
 - [LinkedIn](https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/)
 - Email: oslandosipayung@gmail.com
-
----
-
-Built with curiosity, too much yellow, and a lot of trial and error.
