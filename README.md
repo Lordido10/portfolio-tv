@@ -6,7 +6,7 @@ Portfolio TV presents my experience, projects, education, and technical interest
 
 ## Live Website
 
-🔗 https://lordido10.github.io/portfolio-tv/
+🔗 ...
 
 ## About
 
@@ -85,9 +85,8 @@ portfolio-tv/
 ├── assets/
 └── README.md
 
-# Contact
+# Contact Me
 
-Contact Me
 - GitHub: https://github.com/Lordido10
 - LinkedIn: https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/
 - Email: oslandosipayung@gmail.com
