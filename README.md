@@ -1,92 +1,36 @@
-# Portfolio TV
+# Portfolio TV 📺
 
-A personal portfolio website by **Oslando Fristian**, a Computer Science student at BINUS University.
+Hi! I'm **Oslando Fristian**, a Computer Science student at BINUS University.
 
-Portfolio TV presents my experience, projects, education, and technical interests through a retro television and broadcast-inspired interface.
+This is my personal portfolio — a place where I share some of the projects I've built, experiences I've had, and things I'm currently learning.
 
-## Live Website
+The website uses a retro TV / broadcast concept, with visual inspiration from **Persona 4's bold and playful interface style**.
 
-🔗 https://oslandofristian.vercel.app/
+## 🌐 Live Website
 
-## About
+[oslandofristian.vercel.app](https://oslandofristian.vercel.app/)
 
-I'm interested in building across **Web Development and Intelligent Systems**, while exploring:
+## About Me
 
+I'm currently exploring different areas of software development, especially:
+
+- Web Development
 - Machine Learning
 - Deep Learning
 - Computer Vision
 - Natural Language Processing
 
-## Featured Projects
+Still learning, experimenting, and building things along the way.
 
-### LeafLens
-An explainable plant disease screening system using computer vision and machine learning.
 
-### RADIA
-A role-based clinical workflow integrating chest X-ray screening, physician review, and secure report delivery.
+## Say Hi
 
-### Portfolio TV
-This website — a personal portfolio built around retro television, editorial composition, CRT effects, and channel-based interactions.
+Feel free to reach out or check out what I'm working on.
 
-### Spendly
-Currently **under development**.
-
-## Tech Stack
-
-### Languages
-- Python
-- JavaScript
-- C++
-
-### Web
-- HTML
-- CSS
-- React
-- Flask
-- FastAPI
-
-### AI / Machine Learning
-- PyTorch
-- Torchvision
-- Scikit-learn
-- XGBoost
-- Machine Learning
-- Deep Learning — currently learning
-
-### Vision / Language
-- Computer Vision
-- OpenCV
-- NLP
-
-### Data & Tools
-- SQL
-- Supabase
-- Git
-- GitHub
-- Docker
-- Figma
-
-## Features
-
-- Responsive layout
-- Retro TV / broadcast visual identity
-- CRT and static effects
-- Interactive channel transitions
-- Experience showcase
-- Interactive project programs
-- Project detail modal
-
-## Project Structure
-
-portfolio-tv/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-└── README.md
-
-# Contact Me
-
-- GitHub: https://github.com/Lordido10
-- LinkedIn: https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/
+- [GitHub](https://github.com/Lordido10)
+- [LinkedIn](https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/)
 - Email: oslandosipayung@gmail.com
+
+---
+
+Built with curiosity, too much yellow, and a lot of trial and error.
