@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Oslando Fristian — Computer Science student building across web development and intelligent systems." />
+  <title>Oslando Fristian — Personal Broadcast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-loading">
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot__noise"></div>
+    <div class="boot__scan"></div>
+    <div class="boot__center">
+      <span class="boot__channel">CH --</span>
+      <strong>SIGNAL</strong>
+      <p id="bootStatus">SEARCHING FOR CHANNEL</p>
+      <div class="boot__meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="boot__flash"></div>
+  </div>
+
+  <header class="nav-shell">
+    <nav class="nav-dock" aria-label="Primary navigation">
+      <a class="nav-item is-active" href="#home" data-section="home" aria-label="Home">
+        <svg viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5"></path><path d="M6.5 9.5V20h11V9.5"></path></svg>
+        <span><small>CH 01</small><b>HOME</b></span>
+      </a>
+      <a class="nav-item" href="#about" data-section="about" aria-label="About">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"></circle><path d="M5 19c1.8-3 4.2-4.5 7-4.5s5.2 1.5 7 4.5"></path></svg>
+        <span><small>CH 02</small><b>ABOUT</b></span>
+      </a>
+      <a class="nav-item" href="#experience" data-section="experience" aria-label="Experience">
+        <svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="13" rx="2"></rect><path d="M9 6V4h6v2"></path></svg>
+        <span><small>CH 03</small><b>EXPERIENCE</b></span>
+      </a>
+      <a class="nav-item" href="#projects" data-section="projects" aria-label="Projects">
+        <svg viewBox="0 0 24 24"><path d="M7 5h10l2 3v10H5V8l2-3Z"></path><path d="M9 12h6"></path></svg>
+        <span><small>CH 04</small><b>PROJECTS</b></span>
+      </a>
+      <a class="nav-item" href="#contact" data-section="contact" aria-label="Contact">
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="6" width="17" height="12" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg>
+        <span><small>CH 99</small><b>CONTACT</b></span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hero-wire hero-wire--one" aria-hidden="true"></div>
+      <div class="hero-wire hero-wire--two" aria-hidden="true"></div>
+      <div class="hero-ghost" aria-hidden="true">01</div>
+      <span class="hero-star hero-star--a" aria-hidden="true">✦</span>
+      <span class="hero-star hero-star--b" aria-hidden="true">✦</span>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="channel-kicker"><b>CH 01</b><span>COMPUTER SCIENCE / BINUS UNIVERSITY</span></div>
+          <h1><span>OSLANDO</span><span>FRISTIAN</span></h1>
+          <p class="signal-words">WEB / INTELLIGENT SYSTEMS / BUILD &amp; LEARN</p>
+
+          <div class="dialog dialog--hero">
+            <div class="dialog__name">CURRENT PROFILE</div>
+            <div class="dialog__shadow"></div>
+            <div class="dialog__body">
+              <p>Computer Science student building across <strong>Web Development</strong> and <strong>Intelligent Systems</strong>.</p>
+              <i class="dialog__next">◉</i>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button--dark" href="#projects">VIEW PROJECTS <span>↗</span></a>
+            <a class="button button--line" href="#about">WHO AM I? <span>↓</span></a>
+          </div>
+
+          <div class="hero-status" aria-label="Current portfolio status">
+            <div><small>CURRENT SIGNAL</small><b>WEB / ML / DL</b></div>
+            <div><small>LOCATION</small><b>JAKARTA</b></div>
+            <div><small>STATUS</small><b><i></i> STUDENT</b></div>
+          </div>
+        </div>
+
+        <div class="tv-stage reveal">
+          <div class="antenna" aria-hidden="true"><i></i><i></i></div>
+          <div class="tv">
+            <div class="tv__inner">
+              <div class="tv__bezel">
+                <div class="tv__screen">
+                  <img src="assets/hero-bromo.jpeg" alt="Oslando Fristian at Mount Bromo" />
+                  <div class="tv__grade"></div>
+                  <div class="tv__noise"></div>
+                  <div class="scanlines"></div>
+                  <div class="tv__meta tv__meta--top"><span>CH 01</span><span>INTRO</span></div>
+                  <div class="tv__meta tv__meta--bottom"><span>PERSONAL SIGNAL</span><span>2026</span></div>
+                </div>
+              </div>
+              <aside class="tv__panel">
+                <div class="tv__channel"><small>CHANNEL</small><strong>01</strong></div>
+                <div class="tv__knob"></div>
+                <div class="tv__speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </aside>
+            </div>
+            <i class="tv__foot tv__foot--l"></i><i class="tv__foot tv__foot--r"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker"><div>TRUTH ✦ SEARCH ✦ WEB DEVELOPMENT ✦ MACHINE LEARNING ✦ DEEP LEARNING ✦ COMPUTER VISION ✦ NLP ✦ BUILDING DIGITAL PRODUCTS ✦ TRUTH ✦ SEARCH ✦ WEB DEVELOPMENT ✦ MACHINE LEARNING ✦ DEEP LEARNING ✦ COMPUTER VISION ✦ NLP ✦</div></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-word about-word--truth" aria-hidden="true">TRUTH</div>
+      <div class="about-word about-word--self" aria-hidden="true">SELF</div>
+      <div class="container">
+        <header class="section-head reveal"><div><b>CH 02</b><span>BEYOND THE FOG</span></div><strong>02</strong></header>
+
+        <div class="about-intro">
+          <div class="about-title reveal">
+            <small>PERSONAL FILE / SIGNAL FOUND</small>
+            <h2>WHO<br>AM <i>I?</i></h2>
+            <p>Build. Learn. Question. Repeat.</p>
+          </div>
+          <div class="reveal">
+            <div class="dialog dialog--about">
+              <div class="dialog__name">FILE 02 / ABOUT</div>
+              <div class="dialog__shadow"></div>
+              <div class="dialog__body">
+                <p><strong>I'm a Computer Science student at BINUS University.</strong></p>
+                <p>I enjoy turning technical ideas into practical digital products — from interfaces and web applications to machine-learning and computer-vision systems.</p>
+                <p>Outside development, student events have taught me how to coordinate with teams, solve operational problems, and keep learning from the people around me.</p>
+                <i class="dialog__next">◉</i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-caution reveal" aria-hidden="true">
+          <span>LEARNING /// GRINDING /// IN PROGRESS /// SYSTEM ONLINE /// STAY CURIOUS /// BUILD / LEARN / EVOLVE ///</span>
+        </div>
+
+        <div class="about-index reveal">
+          <article class="education-block">
+            <div class="education-logo"><img src="assets/binus.png" alt="BINUS University logo" /></div>
+            <div>
+              <small>EDUCATION / 2024 — 2028</small>
+              <h3>BINUS UNIVERSITY</h3>
+              <p>Computer Science</p>
+              <span>Undergraduate studies focused on software, computing fundamentals, and intelligent systems.</span>
+            </div>
+          </article>
+
+          <article class="skills-index">
+            <div class="skills-index__head"><small>TECHNICAL INDEX</small><span>VALID STACK / CURRENT LEARNING FOCUS</span></div>
+            <div class="skill-groups">
+              <div><b>LANGUAGES</b><p>Python · JavaScript · C++</p></div>
+              <div><b>WEB</b><p>HTML · CSS · React</p></div>
+              <div><b>BACKEND / DATA</b><p>Flask · FastAPI · SQL · Supabase</p></div>
+              <div><b>ML FRAMEWORKS</b><p>Scikit-learn · XGBoost · PyTorch · Torchvision</p></div>
+              <div><b>FOCUS AREAS</b><p>Machine Learning · Computer Vision · NLP · UI/UX Design </p></div>
+              <div><b>TOOLS</b><p>OpenCV · Git · GitHub · Docker · Figma</p></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="container">
+        <header class="section-head section-head--dark reveal"><div><b>CH 03</b><span>EXPERIENCE ARCHIVE</span></div><strong>03</strong></header>
+        <div class="experience-grid">
+          <div class="media-frame reveal" id="experienceFrame">
+            <img id="experienceImage" src="assets/experience-01.jpeg" alt="Codeavour 7.0 International" />
+            <div class="scanlines"></div>
+            <div class="media-frame__meta"><span id="experienceCounter">01 / 04</span><span>ARCHIVED SIGNAL</span></div>
+            <div class="tune-overlay" id="experienceTune" aria-hidden="true"><div class="tune-overlay__noise"></div><span id="experienceTuneLabel">CH 01</span><i></i></div>
+          </div>
+          <div class="experience-copy reveal">
+            <div class="experience-date"><span id="experienceYear">2026</span><span>JAKARTA / INDONESIA</span></div>
+            <small id="experienceRole">EVENT LOGISTICS VOLUNTEER</small>
+            <h2 id="experienceTitle">CODEAVOUR 7.0<br>INTERNATIONAL</h2>
+            <p id="experienceDescription">Volunteered during Codeavour 7.0 International in Jakarta, supporting logistics and operational needs for an international robotics event. Assisted with equipment preparation, venue setup, and on-site coordination to help ensure smooth event execution.</p>
+            <div class="channel-switcher">
+              <button id="experiencePrev" aria-label="Previous experience">←</button>
+              <button class="experience-channel is-active" data-index="0">01</button>
+              <button class="experience-channel" data-index="1">02</button>
+              <button class="experience-channel" data-index="2">03</button>
+              <button class="experience-channel" data-index="3">04</button>
+              <button id="experienceNext" aria-label="Next experience">→</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="caution-tape" aria-hidden="true"><div>CAUTION // CAUTION // CAUTION // CAUTION // CAUTION // CAUTION // CAUTION // CAUTION // CAUTION //</div></div>
+      <div class="container">
+        <header class="section-head reveal"><div><b>CH 04</b><span>FEATURED PROGRAMS</span></div><strong>04</strong></header>
+
+        <div class="project-intro reveal">
+          <div><small>PROGRAM ARCHIVE</small><h2>PROJECT.</h2></div>
+          <p>Each card is a project signal. Tune into a channel to open the full broadcast.</p>
+        </div>
+        <div class="project-keepout reveal" aria-hidden="true">
+          <span>WARNING. /// WARNING. /// WARNING. /// WARNING. /// WARNING. /// WARNING. ///</span>
+        </div>
+
+        <div class="project-deck reveal" id="projectDeck">
+          <button class="program-card is-active" data-index="0">
+            <span class="program-card__roman">I</span>
+            <div class="program-card__symbol">
+              <img src="assets/project-leaf.png" alt="LeafLens project preview" />
+            </div>
+            <small>CH 04.1 / LIVE</small><strong>LEAFLENS</strong><p>Computer Vision / ML</p><em>VIEW PROGRAM ↗</em>
+          </button>
+          <button class="program-card" data-index="1">
+            <span class="program-card__roman">II</span>
+            <div class="program-card__symbol">
+              <img src="assets/project-scan.png" alt="RADIA project preview" />
+            </div>
+            <small>CH 04.2 / LIVE</small><strong>RADIA</strong><p>AI-Assisted Clinical Workflow</p><em>VIEW PROGRAM ↗</em>
+          </button>
+          <button class="program-card" data-index="2">
+            <span class="program-card__roman">III</span>
+            <div class="program-card__symbol">
+              <img src="assets/project-portfolio.png" alt="Portfolio project preview" />
+            </div>
+            <small>CH 04.3 / ON AIR</small><strong>Portfolio TV</strong><p>Personal Portfolio Website</p><em>VIEW PROGRAM ↗</em>
+          </button>
+          <button class="program-card program-card--upcoming" data-index="3">
+            <span class="program-card__roman">IV</span>
+            <div class="program-card__symbol program-card__symbol--placeholder">
+              <span>NO SIGNAL</span>
+              <small>SPENDLY / UNDER DEVELOPMENT</small>
+            </div>
+            <small>CH 04.4 / NO SIGNAL</small><strong>SPENDLY</strong><p>UNDER DEVELOPMENT</p><em>UNDER DEVELOPMENT</em>
+          </button>
+        </div>
+
+        <div class="project-broadcast reveal">
+          <div class="project-broadcast__copy">
+            <span id="projectChannel">CH 04.1 / PROGRAM 01</span>
+            <h3 id="projectTitle">LEAFLENS</h3>
+            <small id="projectCategory">COMPUTER VISION / MACHINE LEARNING</small>
+            <p id="projectSummary">An explainable screening system that extracts measurable visual features from leaf images and evaluates ensemble models across six crop conditions.</p>
+            <button class="project-open" id="projectOpen">OPEN BROADCAST <span>↗</span></button>
+          </div>
+          <div class="project-tv" id="projectTv" tabindex="0" role="button" aria-label="Open selected project">
+            <div class="project-tv__screen" id="projectVisual">
+              <div class="project-visual-content" id="projectVisualContent">
+                <img src="assets/project-leaf.png" alt="LeafLens project screenshot" />
+                <div class="scanlines"></div>
+                <div class="project-tv__hover"><small>CH 04.1</small><strong>LEAFLENS</strong><span>WATCH PROGRAM ↗</span></div>
+              </div>
+              <div class="tune-overlay" id="projectTune" aria-hidden="true"><div class="tune-overlay__noise"></div><span id="projectTuneLabel">CH 04.1</span><i></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-ghost" aria-hidden="true">99</div>
+      <div class="container">
+        <div class="contact-status reveal"><i></i> CH 99 / SIGNAL OPEN</div>
+        <div class="contact-grid">
+          <h2 class="reveal">LET'S<br>CON<span>NECT.</span></h2>
+          <div class="contact-links reveal">
+            <a href="mailto:oslandosipayung@gmail.com"><small>EMAIL</small><b>oslandosipayung@gmail.com</b><span>↗</span></a>
+            <a href="https://github.com/Lordido10" target="_blank" rel="noopener noreferrer"><small>GITHUB</small><b>@Lordido10</b><span>↗</span></a>
+            <a href="https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/" target="_blank" rel="noopener noreferrer"><small>LINKEDIN</small><b>Oslando Fristian Sipayung</b><span>↗</span></a>
+          </div>
+        </div>
+        <footer><span>END OF TRANSMISSION</span><a href="#home">RETURN TO CH 01 ↑</a></footer>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal__set">
+      <div class="modal__screen">
+        <div class="modal__static" id="modalStatic"><div></div></div>
+        <header><span id="modalChannel">CH 04.1 / PROJECT BROADCAST</span><button id="modalClose" aria-label="Close project">×</button></header>
+        <div class="modal__grid">
+          <div class="modal__visual" id="modalVisual"><img id="modalImage" src="assets/project-leaf.png" alt="LeafLens project screenshot" /></div>
+          <div class="modal__copy">
+            <small id="modalCategory">COMPUTER VISION / MACHINE LEARNING</small>
+            <h2 id="modalTitle">LEAFLENS</h2>
+            <p id="modalDescription"></p>
+            <div class="modal__highlights" id="modalHighlights"></div>
+            <div class="modal__tech" id="modalTech"></div>
+            <a id="modalGithub" href="#" target="_blank" rel="noopener noreferrer">VIEW GITHUB ↗</a>
+            <span class="modal__status" id="modalStatus"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
