@@ -87,8 +87,7 @@ portfolio-tv/
 
 # Contact
 
-Contact
-Oslando Fristian
+Contact Me
 - GitHub: https://github.com/Lordido10
 - LinkedIn: https://www.linkedin.com/in/oslando-fristian-sipayung-4a39b31b3/
 - Email: oslandosipayung@gmail.com
