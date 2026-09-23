@@ -105,6 +105,16 @@ button,a{-webkit-tap-highlight-color:transparent}
 @keyframes ticker{to{transform:translateX(-50%)}}
 @keyframes crtflash{0%{opacity:0;transform:scaleY(.5)}35%{opacity:1}100%{opacity:0;transform:scaleY(4)}}
 
+/* Match the desktop TV height to the profile column. */
+@media(min-width:1101px){
+  .hero-grid{align-content:center}
+  .tv-stage{align-self:stretch;display:flex;flex-direction:column;padding-bottom:18px}
+  .tv-stage .tv{flex:1;display:flex;flex-direction:column}
+  .tv-stage .tv__inner{flex:1}
+  .tv-stage .tv__bezel{display:flex;flex-direction:column}
+  .tv-stage .tv__screen{flex:1;aspect-ratio:auto;min-height:360px}
+}
+
 @media(max-width:1100px){
   .hero-grid,.about-intro,.about-index,.experience-grid,.project-broadcast,.contact-grid,.modal__grid{grid-template-columns:1fr}
   .hero-copy{max-width:780px}.tv-stage{justify-self:center;width:min(100%,820px);margin-top:25px;transform:none}.project-intro{grid-template-columns:1fr}.project-deck{grid-template-columns:repeat(2,1fr)}.program-card:nth-child(n){transform:none}.project-tv{width:min(100%,850px)}.contact-links{max-width:650px}
@@ -160,3 +170,32 @@ button,a{-webkit-tap-highlight-color:transparent}
 .project-broadcast__copy>small{color:rgba(11,12,10,.55)}
 .project-broadcast__copy>span{display:inline-block;padding:5px 8px;background:rgba(11,12,10,.06)}
 @media(max-width:700px){.education-logo{width:150px;height:150px}.education-logo img{width:136px;height:136px}.education-block h3{font-size:2rem}.skill-groups>div{grid-template-columns:1fr}}
+
+/* Project broadcast dialogue */
+.modal__set{width:min(1180px,100%)}
+.modal__screen{padding:clamp(24px,4vw,48px);background:var(--paper)}
+.modal__screen header{padding-bottom:18px;border-bottom:1px solid rgba(11,12,10,.16)}
+.modal__screen header>span{padding:8px 10px;background:var(--ink);color:var(--yellow)}
+.modal__screen header button{background:var(--yellow);font-size:1.3rem;transition:background .18s ease}
+.modal__screen header button:hover{background:var(--ink);color:var(--yellow)}
+.modal__grid{grid-template-columns:1fr 1.05fr;gap:32px;align-items:start}
+.modal__visual{min-height:0;border:8px solid var(--ink);border-radius:12px;box-shadow:7px 7px 0 var(--yellow)}
+.modal__visual>img{aspect-ratio:4/3;object-fit:contain;background:var(--ink)}
+.modal__visual:has(.project-visual--upcoming){min-height:280px}
+.modal__copy>small{display:block;line-height:1.7;letter-spacing:.12em}
+.project-dialog{position:relative;margin:18px 7px 0 0;isolation:isolate}
+.project-dialog::before{content:"";position:absolute;z-index:-1;inset:38px -7px -7px 7px;background:var(--yellow);transform:rotate(1deg)}
+.project-dialog h2{position:relative;z-index:1;display:table;max-width:100%;margin-left:12px;margin-bottom:-2px;padding:12px 30px 14px 18px;background:linear-gradient(100deg,#ffc63b,#f39a13);color:var(--ink);font:700 clamp(1.5rem,3vw,2.2rem) var(--condensed);line-height:1;clip-path:polygon(0 0,94% 5%,100% 100%,0 95%);transform:rotate(-1deg)}
+.project-dialog__body{position:relative;padding:25px 25px 42px;background:linear-gradient(115deg,#716543,#514a34);color:var(--white);border-left:3px solid #efac28;box-shadow:0 10px 20px rgba(11,12,10,.12)}
+.project-dialog__body p{font-size:.96rem;line-height:1.8}
+.project-dialog__cue{position:absolute;right:17px;bottom:10px;color:#ffbe2d;font-size:1.5rem;line-height:1}
+.modal__highlights{margin-top:27px;gap:0;counter-reset:highlights}
+.modal__highlights span{display:flex;gap:12px;align-items:baseline;padding:10px 0;line-height:1.5}
+.modal__highlights span::before{counter-increment:highlights;content:"0" counter(highlights);font:600 .6rem var(--mono);color:#7b6a2c}
+.modal__tech{margin-top:18px;gap:7px}
+.modal__tech span{background:#e8e4d7;font-size:.55rem;padding:7px 9px;border-color:rgba(11,12,10,.2)}
+.modal__copy>a{padding:13px 18px;background:var(--ink);color:var(--yellow);border:0;font-size:.65rem}
+.modal__copy>a[hidden]{display:none}
+.modal__status{margin-top:16px;font-size:.55rem;line-height:1.6}
+@media(max-width:850px){.modal__grid{grid-template-columns:1fr}.modal__visual{width:100%;max-width:560px}.modal__visual>img{aspect-ratio:16/9}.project-dialog h2{font-size:1.8rem}}
+@media(max-width:700px){.modal__screen{padding:22px 18px}.modal__grid{gap:25px}.project-dialog__body{padding:22px 18px 38px}.modal__screen header{gap:12px}.modal__screen header>span{font-size:.48rem}.modal__screen header button{flex-shrink:0}}
